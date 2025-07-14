@@ -33,40 +33,7 @@ function App() {
     tags: []
   });
 
-  // Fetch available filter options
-  useEffect(() => {
-    const fetchFilters = async () => {
-      try {
-        const response = await axios.get(`${API}/filters`);
-        setAvailableFilters(response.data);
-      } catch (error) {
-        console.error('Error fetching filters:', error);
-      }
-    };
-    fetchFilters();
-  }, []);
-
-  // Fetch products based on filters
-  const fetchProducts = async (searchFilters = filters) => {
-    setLoading(true);
-    try {
-      const params = new URLSearchParams();
-      
-      Object.entries(searchFilters).forEach(([key, value]) => {
-        if (value !== '' && value !== 0) {
-          params.append(key, value.toString());
-        }
-      });
-
-      const response = await axios.get(`${API}/products?${params.toString()}`);
-      setProducts(response.data);
-    } catch (error) {
-      console.error('Error fetching products:', error);
-      setProducts([]);
-    } finally {
-      setLoading(false);
-    }
-  };
+ 
 
   // Initial load
   useEffect(() => {
