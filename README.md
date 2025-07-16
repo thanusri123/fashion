@@ -1,16 +1,16 @@
 # 👗 StyleCurator (UI Showcase)
 
-🚀 **GitHub Repo**: [github.com/thanusri123/fashion](https://github.com/thanusri123/fashion)
+🚀 **Live Demo**: [stylecurator-thanu.vercel.app](https://stylecurator-thanu.vercel.app)
 
-A sleek, responsive **fashion tech platform** that blends cutting-edge design with intuitive interaction.  
-This project demonstrates clean UI/UX, fashion-focused theming, and frontend best practices.
+An innovative fashion technology platform showcasing modern UI/UX design with interactive features and responsive layouts.  
+This project highlights fashion-forward design elements and smooth user experiences using modern frontend tools.
 
 ---
 
 ## ⚠️ Note
 
-> 📂 Source code is fully available for learning and exploration.  
-> No backend integration—this is a **frontend-focused project**.
+> 📂 Full source code is available for educational use.  
+> This project is **frontend-only** and serves as a design/UX showcase.
 
 ---
 
@@ -24,10 +24,10 @@ This project demonstrates clean UI/UX, fashion-focused theming, and frontend bes
 
 ## 🎨 Features
 
-- Modern fashion-themed interface  
-- Interactive layouts with category highlights  
-- Mobile-responsive design  
-- Component-based architecture
+- Fashion-inspired user interface  
+- Interactive category layouts  
+- Mobile-friendly & fully responsive  
+- Modular React components
 
 ---
 
@@ -40,6 +40,6 @@ This project demonstrates clean UI/UX, fashion-focused theming, and frontend bes
 
 ## 📌 Status
 
-**🚀 Ready for deployment – GitHub repo available!**  
-You can explore the full code on GitHub:  
-👉 [StyleCurator on GitHub](https://github.com/thanusri123/fashion)
+**🎯 Live & Showcased!**  
+Check out the deployed project here:  
+👉 [stylecurator-thanu.vercel.app](https://stylecurator-thanu.vercel.app)
